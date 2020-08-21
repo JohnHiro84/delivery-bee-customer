@@ -1,0 +1,87 @@
+.order-form-top-container {
+  padding: 1em;
+}
+
+.order-compose-heading {
+  text-align: center;
+}
+
+/* .order-compose > input{
+  margin-top: 1em;
+  margin: .5em;
+  padding: .5em;
+  display: block;
+} */
+
+/* .session-form-container {
+    width: 500px;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 1em;
+    background-color: white;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    border-radius: 8px;
+}
+
+.session-form > div> input {
+  margin: 1em 0em;
+    text-align: center;
+    width: 100%;
+    padding: 1em 0em;
+    border-radius: 5px;
+    border: 1px solid gray;
+} */
+
+.order-form-input {
+  margin: 1em 0em;
+    text-align: center;
+    /* float: right; */
+    width: 100%;
+    padding: 1em 0em;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.order-form-container {
+    width: 500px;
+    margin: auto;
+    /* border: 1px solid gray; */
+    /* border-radius: 8px; */
+    padding: 2em;
+    background-color: white;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.info-gather {
+  text-align: center;
+  list-style-type: none;
+}
+
+.info-gather > li {
+  padding: .5em 0;
+}
+
+
+
+.location-details {
+  list-style-type: none;
+  padding: .5em;
+  /* border: 1px solid black; */
+  /* border-radius: 5px; */
+
+}
+
+.location-details > li {
+  padding: .25em 0;
+}
+
+
+.confirm-details {
+  text-align: center;
+  background-color: white;
+  padding: 3em 0;
+}
