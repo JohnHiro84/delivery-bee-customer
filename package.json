@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "https://immense-ridge-65848.herokuapp.com/",
+  "proxy": "https://immense-ridge-65848.herokuapp.com",
   "eslintConfig": {
     "extends": "react-app"
   },
