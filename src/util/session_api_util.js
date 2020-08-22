@@ -6,7 +6,7 @@ export const signup = (userData) => {
 };
 
 export const login = (userData) => {
-  return axios.post('https://immense-ridge-65848.herokuapp.com//api/users/login', userData);
+  return axios.post('https://immense-ridge-65848.herokuapp.com/api/users/login', userData);
 };
 
 export const setAuthToken = token => {
