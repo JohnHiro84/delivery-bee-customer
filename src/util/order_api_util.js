@@ -1,23 +1,23 @@
 import axios from 'axios';
 
 export const getSingleOrder = id => {
-  return axios.get(`/api/orders/${id}`)
+  return axios.get(`https://immense-ridge-65848.herokuapp.com/api/orders/${id}`)
 };
 
 ////////////////////////customer
 
 export const getCustomerOrdersCompleted = id => {
-  return axios.get(`/api/orders/customer/completed/${id}`)
+  return axios.get(`https://immense-ridge-65848.herokuapp.com/api/orders/customer/completed/${id}`)
 };
 
 export const getCustomerOrdersInProgress = id => {
-  return axios.get(`/api/orders/customer/inprogress/${id}`)
+  return axios.get(`https://immense-ridge-65848.herokuapp.com/api/orders/customer/inprogress/${id}`)
 };
 
 
 
 export const writeOrder = data => {
-  return axios.post('/api/orders/', data)
+  return axios.post('https://immense-ridge-65848.herokuapp.com/api/orders/', data)
 }
 
 
@@ -25,7 +25,7 @@ export const writeOrder = data => {
 ///customer signs off final confirmation of completed order
 export const updateConfirmCompletion = (id) => {
   // console.log("updateConfirmCompletion");
-  return axios.put(`api/orders/confirmed/${id}`,
+  return axios.put(`https://immense-ridge-65848.herokuapp.com/api/orders/confirmed/${id}`,
     {
       id: id
     }
@@ -42,11 +42,11 @@ export const updateConfirmCompletion = (id) => {
 /////////////////////////////////////////comments
 
 export const getOrderComments = id => {
-  return axios.get(`/api/orders/${id}/comments`)
+  return axios.get(`https://immense-ridge-65848.herokuapp.com/api/orders/${id}/comments`)
 };
 
 export const writeComment = data => {
-  return axios.post('/api/comments/', data)
+  return axios.post('https://immense-ridge-65848.herokuapp.com/api/comments/', data)
 }
 
 
