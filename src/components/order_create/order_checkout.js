@@ -29,7 +29,7 @@ function OrderCheckout(props) {
       "Content-Type": "application/json"
     }
 
-    return fetch(`http://localhost:5000/payment`, {
+    return fetch(`https://immense-ridge-65848.herokuapp.com/payment`, {
       method: "POST",
       headers,
       body: JSON.stringify(body)
